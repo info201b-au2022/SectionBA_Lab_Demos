@@ -20,7 +20,6 @@
 
 
 
-
 ## Question 5: View your num_calories if you done it correctly above you should only 
 ## see the calories column extracted. You should first turn it into a dataframe to view it as nice
 ## organized table. 
