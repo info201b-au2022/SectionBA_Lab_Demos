@@ -110,7 +110,8 @@
 
 
 ## Question 11: Write a program which would replace all the strings in find_in_store vector with just no
-## No. 'no_vector` SO for example when you run your no vector it should return the value only no
+## No. 'no_vector` SO for example when you run your no vector it should return the value only no a one element vector.
+## user: notice - You may get a warning in the console hint this is expected.
 
 
 
