@@ -9,6 +9,7 @@
 
 
 
+
 ##Question 2: Next load the dataset from Assignment 1 from https://countlove.org/data/data.csv
 # into a variable called `protests`
 
