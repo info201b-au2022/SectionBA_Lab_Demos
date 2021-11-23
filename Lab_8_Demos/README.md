@@ -1,5 +1,5 @@
 ## Lab 8
-
+![Example completed exercise](./img/Abdiwahid_image.gif)
 Welcome in this lab and demo your going to be working on building webpages
 Using shiny. In particular you will define  a server allowing users to be able
 to modify a graph or other interactive components. And updating the user interface
@@ -10,4 +10,3 @@ To get started edit the included Lab_Demo_App.R, Lab_Demo_Server.R, and Lab_Demo
 
 To be able to build the web pages using shiny library and framework.
 
-![Example completed exercise](./img/Abdiwahid_image.gif)
