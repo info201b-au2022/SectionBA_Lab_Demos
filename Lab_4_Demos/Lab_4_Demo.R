@@ -24,7 +24,7 @@
 
 
 
-##Question 4: What was the total number of attendes that attended the protests in Milwaukee, WI. For 
+##Question 4: What was the total number of attendes that attended the protests located in Milwaukee, WI. For 
 ## Date 10/15/2019. `get_attendes_data`
 
 
@@ -47,14 +47,14 @@
 
 
 
-## Challenge bonus: Write a function which takes in  a Tags(The type of protests) as a parameter. 
+## Challenge bonus: Write a function protest_tag,  which takes in  a Tags(The type of protests) as a parameter. 
 ## And finds out how much Attendes attended that protests in total. When your function 
 ## Is called it should return the phrase "There were N attendees for the protests T"
 ## Where N is the total number of attendes calculated and  T is the Tag the parameter passed in. 
-
+## make sure to drop any grouping using the .groups = "drop" property
 
 
 ## Challenge bonus continued: Call your function above and pass it the 
 ## Tag "Civil Rights; For racial justice; Against punishment" to find out how  much Attendes 
-## attended this protest
+## attended this protest. `protest_information`
 
