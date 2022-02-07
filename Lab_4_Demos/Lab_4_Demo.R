@@ -25,7 +25,7 @@
 
 
 ##Question 4: What was the total number of attendes that attended the protests in Milwaukee, WI. For 
-## Date 10/19/2015. `get_attendes_data`
+## Date 10/19/2019. `get_attendes_data`
 
 
 
