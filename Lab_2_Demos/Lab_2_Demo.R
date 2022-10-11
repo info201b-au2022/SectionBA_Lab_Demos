@@ -6,11 +6,10 @@
 # in your `README.md` file.
 
 
-
+## Querstion 0: Warmup What is the max of these numbers 10, 40, 50, 100, 400, 135, 70 `max_total`
 
 
 # Question 1. # Load the `stringr` package, which you'll use later.
-
 
 
 
@@ -75,10 +74,6 @@
 
 
 ## Reflection 2: #Type a pargraph with at least a bold explaining why you find the datatset intersting
-
-
-
-
 
 
 
