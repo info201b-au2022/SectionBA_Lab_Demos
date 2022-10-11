@@ -8,6 +8,7 @@
 
 
 
+
 # Question 1. # Load the `stringr` package, which you'll use later.
 
 
@@ -19,17 +20,7 @@
 
 
 
-
 ## Question 3: How much  rows are in  the dataset 'num_starbucks'
-
-
-# Question 3: Use an R function to 
-# determine how many how many values (also known as
-#                                                          
-# attributes or features) have been recorded for each starbucsk dataInput (Variable: `num_features_starbucks`)
-
-
-
 
 
 
@@ -54,12 +45,6 @@
 
 
 
-
-
-
-
-
-
 ## Question 6: Write a function which would return Any name when passed into one value 
 ## like a first and last name. Your functiuon will be passed a 
 #first and last name. So if passed for example James Hopkins the function should return 
@@ -76,13 +61,14 @@
 
 
 
-##Question 8: Write a function which would return a persons first name and last name plus the 
+##Question 8: Write a function which would return a word with
+## the first name and last name plus the 
 ## sentence Is the weiredest name I seen sperated by a _ with spaces to show it.
-## Your function would be passed a first_name and last_name. So for example if your passed a first name Jay 
-## Jones your function should return Jay_Jones_Is  the weirdest name I heard Where Jay is the first name
-## and jones is the last name
+## Your function would be passed a first_name and last_name. So for example if your passed a first name Fist 
+## and last name Wall your function should 
+## return Fist_Wall_Is  the weirdest name I heard Where Fist is the first name
+## and Wall is the last name
 ## store this in a variable with_underscores.
-
 
 
 
@@ -98,11 +84,10 @@
 
 
 ##Question 9:
-##Call your function with_dashes. and pass it the arguments "Cookies" as the first name 
-## and "Table" as the second argument
+##Call your function with_dashes. and pass it the arguments 
+## of the starbucks dataset of the 11th entry as the first name 
+## and 30th entry of the X column as the last name as the second argument
 ## store this in a variable yea_dashes
-
-
 
 
 
@@ -117,13 +102,6 @@
 ## Question 11: Write a program which would replace all the strings in find_in_store vector with just no
 ## No. 'no_vector` SO for example when you run your no vector it should return the value only no a one element vector.
 ## user: notice - You may get a warning in the console hint this is expected.
-
-
-
-
-
-
-
 
 
 
