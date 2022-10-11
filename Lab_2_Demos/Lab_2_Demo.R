@@ -8,7 +8,6 @@
 
 
 
-
 # Question 1. # Load the `stringr` package, which you'll use later.
 
 
@@ -22,6 +21,12 @@
 
 
 ## Question 3: How much  rows are in  the dataset 'num_starbucks'
+
+
+# Question 3: Use an R function to 
+# determine how many how many values (also known as
+#                                                          
+# attributes or features) have been recorded for each starbucsk dataInput (Variable: `num_features_starbucks`)
 
 
 
