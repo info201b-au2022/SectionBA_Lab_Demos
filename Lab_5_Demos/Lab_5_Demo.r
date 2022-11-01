@@ -85,6 +85,19 @@
 ## And formats it in the form MONTH DAY, YEAR so if the function took in 
 ## 2013-04-24 it would return April 24, 2013
 
+Format_Date <- function(DATE_FORMAT) {
+  MONTH <- c("January", "Febuary", "March", "April", "May", "June", "July", "August", "
+             Septemeber", "October", "November", "December")
+  for(i in 1:length(DATE_FORMAT)) {
+    results <- "";
+    grab_year <- substring(DATE_FORMAT, 1, 4)
+    grab_month <- substring(DATE_FORMAT, i + 5, i + 6)
+    grab_day <- substring(DATE_FORMAT, i + 8, i + 9)
+    Get_Month <- MONTH[as.integer(grab_month)]
+    results <- paste(Get_Month, paste0(grab_day, ","), grab_year)
+    return(str_trim(results))
+  }
+}
 
 
 
