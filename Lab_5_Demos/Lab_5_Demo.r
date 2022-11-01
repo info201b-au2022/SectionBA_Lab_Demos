@@ -6,8 +6,11 @@
 ##Question 1: Before you begin first load the tidyverse library for know as a first step.
 
 
+
+
 ##Question 2: Next load the dataset from Assignment 1 from https://countlove.org/data/data.csv
 # into a variable called `protests`
+
 
 
 
@@ -20,9 +23,13 @@
 
 
 
+
+
 ##Question 4: What was the total number of attendes that attended the 
 ## protests located in Milwaukee, WI. For 
 ## The Date 10/15/2019. Rember to filter out na Values `get_attendes_data`
+
+
 
 
 
