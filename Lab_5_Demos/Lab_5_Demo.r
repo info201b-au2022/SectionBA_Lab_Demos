@@ -9,10 +9,8 @@
 
 
 
-
 ##Question 2: Next load the dataset from Assignment 1 from https://countlove.org/data/data.csv
 # into a variable called `protests`
-
 
 
 
@@ -24,9 +22,6 @@
 
 
 
-
-
-
 ##Question 4: What was the total number of attendes that attended the 
 ## protests located in Milwaukee, WI. For 
 ## The Date 10/15/2019. Rember to filter out na Values `get_attendes_data`
@@ -35,9 +30,9 @@
 
 
 
-
 ## Question 5: What was the most number of Attendes 
 # for the location Washington DC `protest_DC` rember to filter for NA VAlues
+
 
 
 
@@ -51,6 +46,8 @@
 
 
 
+
+
 ## Question 7:
 
 ## Which  protests TAG that had the most attendes.  `protest_detail`
@@ -60,6 +57,9 @@
 
 ## Question 8:
 ## What day had the most number of Attendes `most_days`
+
+
+  
 
 
 
@@ -80,22 +80,11 @@
 
 
 
+
 ## This function takes in a DATe as paramter in the form YEAR-MONTH-DAY
 ## And formats it in the form MONTH DAY, YEAR so if the function took in 
 ## 2013-04-24 it would return April 24, 2013
-Format_Date <- function(DATE_FORMAT) {
-  MONTH <- c("January", "Febuary", "March", "April", "May", "June", "July", "August", "
-             Septemeber", "October", "November", "December")
-  for(i in 1:length(DATE_FORMAT)) {
-    results <- "";
-    grab_year <- substring(DATE_FORMAT, 1, 4)
-    grab_month <- substring(DATE_FORMAT, i + 5, i + 6)
-    grab_day <- substring(DATE_FORMAT, i + 8, i + 9)
-    Get_Month <- MONTH[as.integer(grab_month)]
-    results <- paste(Get_Month, paste0(grab_day, ","), grab_year)
-    return(str_trim(results))
-  }
-}
+
 
 
 
@@ -104,19 +93,21 @@ Format_Date <- function(DATE_FORMAT) {
 ## And finds out how much Attendes attended that protests in total. When your function 
 ## Is called it should return the phrase "There were N attendees for the protests T"
 ## Where N is the total number of attendes calculated and  T is the Tag the parameter passed in. 
-## make sure to drop any grouping using the .groups = "drop" property
-
-
-## Challenge bonus continued: Call your function above and pass it the 
-## Tag "Civil Rights; For racial justice; Against punishment" to find out how  much Attendes 
-## attended this protest. `protest_information` # Call the function
+## make sure to drop any grouping using the .groups = "drop" property,
+# Call the function
 ## format string to format the string, Pass in the tags count and 
 ## the tag itself. You can the format_String function below 
 ## to print out the string, Passing in count of Attendes for the TAG 
 ## as the count and TAGS paramter itself for Desc parameters.
 
 
+## Challenge bonus continued: Call your function above and pass it the 
+## Tag "Civil Rights; For racial justice; Against punishment" to find out how  much Attendes 
+## attended this protest. `protest_information` 
+
 
 format_String <- function (Count, Desc){
   return(paste("There were", Count, "Attendes for the protests", Desc))
 }
+
+
